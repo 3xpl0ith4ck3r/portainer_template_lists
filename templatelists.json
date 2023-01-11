@@ -1,68 +1,66 @@
-{
-  "templates": [
-    {
-      "name": "dnburgess",
-      "link": "https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json, https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json"
-    },
-    {
-      "name": "Qballjos",
-      "link": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json"
-    },
-    {
-      "name": "SelfhostedPro",
-      "link": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/portainer-2.0/Template/template.json"
-    },
-    {
-      "name": "technorabilia",
-      "link": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json"
-    },
-    {
-      "name": "mikestraney",
-      "link": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/templates.json"
-    },
-    {
-      "name": "mycroftwilde",
-      "link": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Template/template.json"
-    },
-    {
-      "name": "ntv-one",
-      "link": "https://raw.githubusercontent.com/ntv-one/portainer/main/template.json"
-    },
-    {
-      "name": "xneo1",
-      "link": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json"
-    },
-    {
-      "name": "mycroftwilde",
-      "link": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Template/template.json"
-    },
-    {
-      "name": "donPabloNow",
-      "link": "https://raw.githubusercontent.com/donPabloNow/selfhosted-saas/master/Template/portainer-v2.json"
-    },
-    {
-      "name": "OliverCullimore",
-      "link": "https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json"
-    },
-    {
-      "name": "mediadepot",
-      "link": "https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json"
-    },
-    {
-      "name": "portainer-default",
-      "link": "https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json"
-    },
-    {
-      "name": "",
-      "link": ""
-    },
-    {
-      "name": "",
-      "link": ""
-    },
-    {
-      "name": "",
-      "link": ""
-    }
-  ]
-}
+[
+  {
+    "name": "dnburgess",
+    "link": "https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json, https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json"
+  },
+  {
+    "name": "Qballjos",
+    "link": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json"
+  },
+  {
+    "name": "SelfhostedPro",
+    "link": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/portainer-2.0/Template/template.json"
+  },
+  {
+    "name": "technorabilia",
+    "link": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json"
+  },
+  {
+    "name": "mikestraney",
+    "link": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/templates.json"
+  },
+  {
+    "name": "mycroftwilde",
+    "link": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Template/template.json"
+  },
+  {
+    "name": "ntv-one",
+    "link": "https://raw.githubusercontent.com/ntv-one/portainer/main/template.json"
+  },
+  {
+    "name": "xneo1",
+    "link": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json"
+  },
+  {
+    "name": "mycroftwilde",
+    "link": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Template/template.json"
+  },
+  {
+    "name": "donPabloNow",
+    "link": "https://raw.githubusercontent.com/donPabloNow/selfhosted-saas/master/Template/portainer-v2.json"
+  },
+  {
+    "name": "OliverCullimore",
+    "link": "https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json"
+  },
+  {
+    "name": "mediadepot",
+    "link": "https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json"
+  },
+  {
+    "name": "portainer-default",
+    "link": "https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json"
+  },
+  {
+    "name": "",
+    "link": ""
+  },
+  {
+    "name": "",
+    "link": ""
+  },
+  {
+    "name": "",
+    "link": ""
+  }
+]
