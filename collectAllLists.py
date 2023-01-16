@@ -87,6 +87,18 @@ def sortlists(_lists):
 
     return _clearedlist, _dupList
 
+def createPortainerJSON(_data):
+    tmpdict = {}
+    tmpdict["version"] = 2
+
+    # for listitem in _data:
+    #     print(listitem)
+    #     ...
+
+    tmpdict["templates"] = _data
+
+    return tmpdict
+
 
 def main():
     # Opening templatelists.json file
@@ -99,12 +111,24 @@ def main():
 
     clearedList, duplicateList = sortlists(unclearedlist)
 
+    clearResult = createPortainerJSON(clearedList)
+    duplicateResult = createPortainerJSON(duplicateList)
+
+    with open("clearResult.json", "w") as outfile_clear:
+        json.dump(clearResult, outfile_clear)
+
+    with open("duplicateResult.json", "w") as outfile_dup:
+        json.dump(duplicateResult, outfile_dup)
+
+
+    #ToDo: count log files and hold last 5. Delete the rest
+    #ToDo: create subfolder and extract from the cleared list each dict entry to a separate portainer file
+
     print("Generated two lists. \n Cleared List: {} \n Duplicate List: {}".format(len(clearedList), len(duplicateList)))
     logger.info(
-        "Generated two lists. \n Cleared List: {} \n Duplicate List: {}".format(len(clearedList), len(duplicateList)))
-
-    ...
-
+        "Generated two lists. A clear list without any duplicates and one list with all filtered duplicates \n "
+        "Cleared List has {} elements \n "
+        "Duplicate List has {} elements".format(len(clearedList), len(duplicateList)))
 
 if __name__ == "__main__":
     main()
