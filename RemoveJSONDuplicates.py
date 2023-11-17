@@ -54,3 +54,12 @@ unique_data = remove_duplicate_items(data['templates'], "title")
 with open("unique_data.json", "w") as outfile:
     #outfile.write(unique_data)
     json.dump(unique_data, outfile)
+
+with open("unique_data.json", "r") as outfile:
+    json_pretty = json.dumps(json.load(outfile), indent=2)
+
+with open("unique_data_pretty.json", "w") as resp:
+    resp.write(json_pretty)
+
+
+
