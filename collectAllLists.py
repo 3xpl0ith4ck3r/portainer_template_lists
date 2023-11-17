@@ -7,7 +7,8 @@ from datetime import datetime
 
 # Creating and Configuring Logger
 Log_Format = "%(levelname)s %(asctime)s - %(message)s"
-logging.basicConfig(filename="logfile_" + str(datetime.now()) + ".log",
+logfile = "logfile_{0}.log".format(str(datetime.today().date()))
+logging.basicConfig(filename=logfile,
                     filemode="w",
                     format=Log_Format,
                     level=logging.DEBUG)
