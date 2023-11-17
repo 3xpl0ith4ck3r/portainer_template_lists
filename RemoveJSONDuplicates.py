@@ -52,4 +52,5 @@ unique_data = remove_duplicate_items(data['templates'], "title")
 
 # Writing to sample.json
 with open("unique_data.json", "w") as outfile:
-    outfile.write(unique_data.__str__())
+    #outfile.write(unique_data)
+    json.dump(unique_data, outfile)
